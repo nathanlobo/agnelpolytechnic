@@ -250,8 +250,14 @@
 }
 
 
+.main__content{
+ color: var(--primary-color);
 
+}
 
+.sub_title {
+text-align:center;
+}
 
 
 
