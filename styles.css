@@ -18,8 +18,8 @@
                  #92ccf0;
 }
 
-.dark-theme{
-    --primary-color: #121212;
+.light-theme{
+    --primary-color: #000000;
     --secondary-color: #ffffff;
 }
 
