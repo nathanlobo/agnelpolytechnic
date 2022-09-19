@@ -13,6 +13,6 @@ icon.onclick = function(){
         icon.src = "images/moon.png";
     }
     else{
-        icon.src = "images/sun.png" alt = "Light Theme";
+        icon.src = "images/sun.png";
     }
 }
