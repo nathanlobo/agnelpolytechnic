@@ -18,13 +18,11 @@ icon.onclick = function(){
 }
 
 var off = document.getElementById("switchoff");
+var on = document.getElementById("switchon");
 off.onclick = function(){
-    document.body.classList.toggle("");
-    if(document.body.classList.contains("")){
-        off.src = "images/pic_bulbon.gif";
-    }
-    else{
-        off.src = "images/pic_bulboff.gif";
-    }
+    document.getElementById(mypic).src= "images/pic_bulboff.gif"; 
 }
 
+on.onclick = function(){
+    document.getElementById(mypic).src= "images/pic_bulbon.gif"; 
+}
