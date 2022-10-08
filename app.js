@@ -16,3 +16,15 @@ icon.onclick = function(){
         icon.src = "images/sun.png";
     }
 }
+
+var off = document.getElementById("switchoff");
+off.onclick = function(){
+    document.body.classList.toggle("");
+    if(document.body.classList.contains("")){
+        off.src = "images/pic_bulbon.gif";
+    }
+    else{
+        off.src = "images/pic_bulboff.gif";
+    }
+}
+
